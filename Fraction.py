@@ -2,6 +2,11 @@ class Fraction(object):
 
     def __init__(self, numerator=0, denominator=1):
         #TODO
+        numerator = numerator
+        if denominator == 0:
+            close()
+        else:
+            denominator == denominator
         pass
 
     def gcd(a, b):
